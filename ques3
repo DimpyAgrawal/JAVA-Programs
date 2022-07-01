@@ -1,0 +1,19 @@
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+	Scanner sc = new Scanner(System.in);
+	float []marks={10.7f,34.5f,56,77};
+	float a= sc.nextFloat();
+	String b="0";
+	for(int j=0;j<marks.length;j++)
+	    if(marks[j]==a){
+	        b="YES";
+	        break;
+	    }
+	    else
+	        b="NO";
+	       
+	 System.out.println(b);
+	}
+}
