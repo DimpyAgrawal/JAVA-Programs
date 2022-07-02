@@ -1,0 +1,15 @@
+public class Main
+{
+    
+    public static int sum(int n)
+    {
+        int fact=1;
+        for(int i=1;i<=n;i++){
+            fact=fact*i;
+        }
+        return fact;
+    }
+	public static void main(String[] args) {
+		System.out.println(sum(4));
+	}
+}
