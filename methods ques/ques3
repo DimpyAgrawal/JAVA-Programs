@@ -1,0 +1,16 @@
+public class Main
+{
+    
+    public static void foo()
+    {
+       	System.out.println("GOOD MORNING BRO!");
+    }
+    public static void foo(int a)
+    {
+       	System.out.println("GOOD MORNING BRO!"+a+"HOW ARE YOU!");
+    }
+	public static void main(String[] args) {
+		//foo();
+		foo(3000);
+	}
+}
