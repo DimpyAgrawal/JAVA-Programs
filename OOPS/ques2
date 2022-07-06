@@ -1,0 +1,27 @@
+  class Employee{   //class
+        int id;
+        String name;
+        public void details(){
+            System.out.println("My id is "+id);
+            System.out.println("My name is "+name);
+            
+        }
+        
+    }
+    public class Main
+{
+	public static void main(String[] args) {
+		System.out.println("This isour custom class");
+		Employee dimpy = new Employee(); 
+		Employee bhavana = new Employee();// Object
+		
+		dimpy.id = 7;    // Setting Attributes
+		dimpy.name="Dimpy Agrawal";
+		bhavana.id = 5;
+		bhavana.name="Bhavana";
+		
+		dimpy.details();
+		bhavana.details();
+		
+	}
+}
