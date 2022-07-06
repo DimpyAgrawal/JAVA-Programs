@@ -1,0 +1,32 @@
+class cellphone{
+        String ring;
+        String vibrate;
+        String call;
+        public void ring(){
+            System.out.println(ring);
+        }
+        public void vibrate(){
+             System.out.println(vibrate);
+            
+        }
+        public void call(){
+             System.out.println(call);
+            
+        }
+    }
+    
+    public class Main
+    {
+	public static void main(String[] args) {
+	cellphone dimpy = new cellphone();
+	dimpy.ring = "Ringing...";
+	dimpy.vibrate = "Vibrating...";
+	dimpy.call = "Calling...";
+	dimpy.ring();
+	dimpy.vibrate();
+	dimpy.call();
+		
+		
+		
+	}
+}
