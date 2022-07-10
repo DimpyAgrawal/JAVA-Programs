@@ -1,0 +1,30 @@
+class MyEmployee{
+    private String Name;
+    private int Id;
+    
+    public MyEmployee(){
+        Name="Your-Name-Here";
+        Id= 457;
+    }
+    
+
+        public void setName(String n){this.Name = n;}
+	    
+	    public String getName(){return Name;}
+	    
+	    public void setId(int i){this.Id = i;}
+	    
+	    public int getId(){return Id; }
+}
+
+
+public class Main
+{
+	public static void main(String[] args9) {
+	    MyEmployee dimpy = new MyEmployee();
+	    
+	    System.out.println(dimpy.getName()); 
+	    System.out.println(dimpy.getId()); 
+		
+	}
+}
