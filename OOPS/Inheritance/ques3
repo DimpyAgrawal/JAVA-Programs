@@ -1,0 +1,25 @@
+class EkClass{
+    int a;
+    
+    public int getA(){
+        return a;
+    }
+    
+    EkClass(int v){
+        a = v;
+    }
+    
+    public int returnone(){
+        return 1;
+    }
+}
+
+
+public class Main
+{
+	public static void main(String[] args) {
+	EkClass e = new EkClass(4);
+	System.out.println(e.getA());
+	}
+
+}
